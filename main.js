@@ -98,5 +98,5 @@ function valorIncorrecto() {
     }  
 }
 
-
+//Ejecutar
 consultar();
