@@ -3,13 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="main.js"></script>
-    <title>Preentregable 1 Javascript Franco Marzioni</title>
+    <link rel="shortcut icon" href="img/logo-perrete.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+    <script defer src="./js/main.js"></script>
+     
+    <title>Tienda de alimentos para perro</title>
+
 </head>
+
 <body>
-    <p>
-        En este trabajo (planteado de cara al usuario), voy a hacer un simulador de e-commerce que muestre el stock disponible de vehículos de una concesionaria, indicandole al usuario las opciones disponibles y redirigiendolo al programa cada vez que se equivoque o que coloque valores incorrectos.
-    </p>
+
+    <header>
+        <!-- Navbar. -->
+        <div class="contenedor">
+            <h1 class="titulo">DOGOD Tienda de alimentos</h1>
+            <!-- Carrito. -->
+            <div class="ver-carrito" id="verCarrito">
+                <img src="./img/grocery-store .png" alt="Carrito de compras">
+                
+            </div>
+        </div>
+    </header>
+
+    <!--Banner.-->
+    <div class="contenedor-banner"> 
+    <img class="banner-perruno" src="./img/mcat-banner-perros-alimento.png" alt="banner">
+   </div>  
     
+    <!--Contenido de la tienda.-->
+   <div id="shopContent" class="shop-content"></div>
+
+   <!--modal/ventana emergente container.-->
+   <div id="modal-container" class="modal-container"></div>
+
 </body>
 </html>
